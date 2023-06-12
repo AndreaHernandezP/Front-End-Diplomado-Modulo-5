@@ -1,0 +1,12 @@
+{ //Relaciones de cómo se hará la transformación de código para que sea compatible con más navegadores
+    "compilerOptions":{ //Como se va a procesar el código TS
+        "outDir": "./dist/", //Carpeta de salida
+        "noImplicitAny": true, //Nos pone los errores en la declaración
+        "sourceMap": true, //Permite compilar todos los ficheros/archivos del proyecto
+        "module": "es6",    //Versión del lenguaje del código
+        "target": "es5", //Versión del lenguaje para el que se va a ejecutar
+        "jsx": "react",
+        "allowJs": true, //Permitir código JS
+        "moduleResolution": "node" //a través de nodos
+    } 
+}

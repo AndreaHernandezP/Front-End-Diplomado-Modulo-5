@@ -1,0 +1,19 @@
+<!--html:5 muestra el árbol básico de una página HTML-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Compatibilidad con internet explorer -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Compatibilidad con diseño responsivo-->
+        <title>Administración de activos(assets)</title>
+
+        <!--Extraer biblioteca externa-->
+        <!--Poner dirección de un CDN, CDN es red de entrega de contenido, manda el archivo para poderlo usar en la página-->
+        <!--Al instalar lodash, se puede omitir llamarlo por URL
+        <script src="https://unpkg.com/lodash@4.17.20"></script>-->
+    </head>
+    <body>
+        <!-- <script src="src/index.js"></script> -->
+        <script src="./dist/bundle.js"></script>  <!-- Contiene los elementos activos, es el paquete que se genera con Webpack. Es el nombre por default del archivo de configuración -->
+    </body>
+</html>
